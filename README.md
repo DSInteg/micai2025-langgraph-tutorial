@@ -302,6 +302,7 @@ MIT License - ver archivo LICENSE para detalles
 Para preguntas sobre el tutorial:
 - **Durante el evento**: Pregunta en el canal de Slack/Discord
 - **Después del evento**: Abre un Issue en GitHub
+- **Dudas posteriores**: jcordova@dsinteg.com
 
 ---
 
