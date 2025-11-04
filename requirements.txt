@@ -1,0 +1,29 @@
+# Tutorial LangGraph Multi-Agent - Dependencias
+# MICAI 2025
+
+# Core dependencies
+langgraph>=0.2.0
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-openai>=0.2.0
+langchain-anthropic>=0.2.0
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+
+# Optional: Web search
+# tavily-python>=0.3.0
+
+# Development dependencies
+jupyter>=1.0.0
+pytest>=8.0.0
+black>=24.0.0
+ruff>=0.6.0
+ipykernel>=6.0.0
+
+# For visualization (optional)
+# graphviz>=0.20.0
+# matplotlib>=3.7.0
+
+dotenv>=1.0.0

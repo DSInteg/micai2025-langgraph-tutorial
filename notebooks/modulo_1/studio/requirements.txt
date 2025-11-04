@@ -1,0 +1,6 @@
+# Dependencias para el Sistema de Clasificación de Tickets
+# LangGraph Studio
+
+langgraph>=1.0.0
+langchain-core>=1.0.0
+typing-extensions>=4.7.0

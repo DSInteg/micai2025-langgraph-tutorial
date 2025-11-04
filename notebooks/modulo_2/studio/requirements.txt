@@ -1,0 +1,8 @@
+# Dependencias para Módulo 2 - Patrones Multi-Agente
+# LangGraph Studio
+
+langgraph>=1.0.0
+langchain-core>=1.0.0
+langchain-openai>=1.0.0
+typing-extensions>=4.7.0
+python-dotenv>=1.0.0

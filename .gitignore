@@ -1,0 +1,393 @@
+# Tutorial LangGraph Multi-Agent - MICAI 2025
+# .gitignore
+
+# ============================================================================
+# Python
+# ============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pdm
+.pdm.toml
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# ============================================================================
+# IDEs and Editors
+# ============================================================================
+
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ============================================================================
+# Operating Systems
+# ============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.directory
+.Trash-*
+.nfs*
+
+# ============================================================================
+# Project Specific
+# ============================================================================
+
+# Environment variables (CRITICAL - never commit API keys!)
+.env
+.env.local
+.env.*.local
+*.env
+
+# LangSmith / LangChain
+.langchain/
+.langsmith/
+
+# API Keys and Secrets
+secrets/
+*.key
+*.pem
+*.cert
+credentials.json
+config.json
+
+# Data files (large datasets, caches)
+data/
+*.csv
+*.json
+*.jsonl
+*.parquet
+*.db
+*.sqlite
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+
+# macOS Finder
+.DS_Store
+
+# Output files
+output/
+outputs/
+results/
+*.pdf
+*.docx
+*.xlsx
+
+# Model files (large files)
+models/
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+*.pb
+
+# LangChain specific
+.chroma/
+chroma/
+vectorstore/
+embeddings/
+
+# Jupyter specific
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.ipynb_meta
+
+# Generated files
+generated/
+gen/
+
+# Cache directories
+.cache/
+cache/
+__pycache__/
+
+# Build artifacts
+build/
+dist/
+
+# ============================================================================
+# Keep Important Examples
+# ============================================================================
+
+# Keep example env file
+!.env.example
+
+# Keep example configs
+!config.example.json
+!secrets.example.json
+
+# Keep documentation
+!docs/
+!README.md
+!SETUP.md
+!LICENSE
+
+# Keep notebooks for tutorial
+!notebooks/
+!notebooks/**/*.ipynb
+
+# Keep ejercicios structure (but not solutions if needed)
+!ejercicios/
+# ejercicios/**/solucion.py  # Uncomment to hide solutions
+
+# Keep examples
+!ejemplos/
+!ejemplos/**/*.py
+
+# ============================================================================
+# Development
+# ============================================================================
+
+# Sandbox / Playground files
+sandbox/
+playground/
+scratch/
+test_*.py
+debug_*.py
+experimental/
+
+# Personal notes
+notes.txt
+TODO.txt
+NOTES.md
+
+# Generated documentation
+site/
+_build/
+
+# Profiling
+*.prof
+*.lprof
+
+# ============================================================================
+# CI/CD
+# ============================================================================
+
+# GitHub Actions
+# .github/  # Uncomment if you don't want to track workflows
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+
+# Benchmarks
+benchmarks/
+*.benchmark
+
+claude.md
+docs.langchain.md
+GIT_GUIDE.md
+check_git_files.sh
+activate.sh
+docs/GUIA_INSTRUCTOR.md
